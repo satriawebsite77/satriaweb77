@@ -1,0 +1,284 @@
+/* SATRIAWEB77 - style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: powderblue !important;
+}
+
+header { background-color: #0057b8; color: #fff; padding: 40px 20px; text-align: center; }
+
+nav { background-color: #004a9f; padding: 10px 0; text-align: center; }
+
+nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+
+nav a:hover { text-decoration: underline; }
+
+section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+
+h2 { color: #0057b8; margin-bottom: 20px; }
+
+.card { background-color: #fff; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+a { color: #0057b8; }
+
+a:hover { color: #003f80; }
+
+footer { background-color: #000 !important; color: #fff; text-align: center; padding: 3px !important; margin-top: 40px; }
+
+@media (max-width: 600px) { nav a { display: block; margin: 10px 0; }
+
+header h1 { font-size: 24px; }
+
+section { padding: 20px 10px; } }
+
+.hero { background-color: #000 !important; }
+
+nav a { color: white; text-decoration: none; } nav a:visited { color: white; } nav a:hover, nav a:focus, nav a:active { color: #FFD700; }
+
+.logo-text { font-weight: bold; font-size: 32px; background: linear-gradient(to right, #007bff, #ffffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+.navbar a.active { color: gold; font-weight: bold; } .logo { width: 150px; height: auto; display: block; margin: 0 auto; } .tagline { color: gold; } #instagram-float { position: fixed; bottom: 90px; /* supaya tidak tumpuk dengan WhatsApp */ right: 20px; z-index: 999; }
+
+#instagram-float img { height: 60px; width: 60px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.3); } header { background-color: #0057b8; color: white; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 15px; flex-wrap: wrap; }
+
+header img { height: 60px; }
+
+nav { background: #616161; padding: 10px; text-align: center; }
+
+nav a { display: inline-block; margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+header { background-color: #0057b8; color: white; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 15px; flex-wrap: wrap; }
+header img { height: 60px; }
+nav { background: #616161; padding: 10px; text-align: center; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+.portfolio, .testimonial, .contact { margin-top: 40px; }
+footer { background: #004a9f; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+.card { background: white; padding: 20px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+.identitas {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fff8dc;
+}
+
+.card-identitas {
+  background-color: white;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto-identitas {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.btn-identitas {
+  display: inline-block;
+  background-color: goldenrod;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn-identitas:hover {
+  background-color: #d4af37;
+}
+.identitas,
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.identitas {
+  margin-bottom: 30px;
+}
+
+#contact {
+  margin-top: 30px;
+}
+.floating-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+}
+.kontak-container {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* Tentang Kami */
+.tentang {
+  background-color: #e3f2fd;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.tentang p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Kontak */
+.kontak {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.kontak a {
+  color: #64b5f6;
+  text-decoration: none;
+}
+
+.kontak a:hover {
+  text-decoration: underline;
+}
+.identitas,
+.tentang,
+.kontak,
+footer {
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.tentang {
+  background-color: #fff8dc; /* sama kayak identitas biar nyatu */
+}
+
+.kontak {
+  background-color: lightgray; /* biar nyatu ke bawah dan ke footer */
+  color: white;
+}
+
+.kontak a {
+  color: #64b5f6;
+}
+
+footer {
+  background-color: #000 !important;
+  padding: 10px 20px;
+  margin: 0;
+}
+.label-kontak {
+  color: #000; /* Atau #fff kalau background-nya gelap */
+  font-weight: bold;
+  margin-right: 5px;
+}
+.kontak-container a {
+  color: #00008B; /* Dark Blue */
+  text-decoration: underline; /* Biar kelihatan kayak link */
+}
+.kontak-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kontak-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.kontak-item .label {
+  font-weight: bold;
+  width: 80px; /* Atur agar label-labelnya sejajar */
+}
+.kontak-item {
+  display: flex;
+  align-items: center;
+  gap: 1px; /* Biar rapet, kecilin gap */
+  font-size: 14px;
+}
+.kontak-item .label {
+  font-weight: bold;
+}
+.kontak-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.kontak-item {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.kontak-item .label {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.kontak-item a {
+  color: #0000EE; /* warna biru standar link */
+  text-decoration: underline;
+}
+.kontak-item .label {
+  color: #000; /* warna item */
+  font-weight: bold;
+}
+.kontak-item {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* jarak kecil antara label dan link */
+  margin-bottom: 5px;
+  color: #000; /* warna teks item */
+  font-weight: bold;
+}
+
+.kontak-item a {
+  font-weight: normal;
+  color: #0000ee; /* biar link-nya masih keliatan link */
+  text-decoration: underline;
+}
+.kontak h2 {
+  color: black;
+}
+p.kontak-info {
+  margin: 2px 0; /* bikin jaraknya rapet */
+}
+h2 {
+  color: black;
+}
+body {
+  animation: masukDikit 0.5s ease-in;
+}
+
+@keyframes masukDikit {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
